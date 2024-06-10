@@ -3,7 +3,7 @@ import * as qs from "qs";
 import { IInterceptors, ClientInstance } from "@pricemoov-oss/moon";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const paramsSerializer = (params: any) => qs.stringify(params, { arrayFormat: "repeat" });
+const paramsSerializer = (params: any) => qs.stringify(params, { arrayFormat: "indices" });
 
 function updateCancelToken(config?: AxiosRequestConfig) {
   if (!config?.cancelToken) {
