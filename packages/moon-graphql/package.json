@@ -1,6 +1,6 @@
 {
   "name": "@pricemoov-oss/moon-graphql",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "GraphQL for moon",
   "author": "PricemoovOSS",
   "license": "Apache-2.0",
@@ -21,12 +21,12 @@
     "lib"
   ],
   "dependencies": {
-    "qs": "~6.9.4"
+    "qs": "^6.17.1"
   },
   "peerDependencies": {
-    "@pricemoov-oss/moon": "~3.0.0",
-    "graphql": "~15.3.0",
-    "graphql-request": "~3.4.0"
+    "@pricemoov-oss/moon": ">=3.0.0 <5.0.0",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.4.0"
   },
   "devDependencies": {
     "@pricemoov-oss/moon": "^3.0.0"
